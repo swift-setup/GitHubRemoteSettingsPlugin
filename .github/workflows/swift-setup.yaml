@@ -8,7 +8,7 @@ jobs:
   build-swift:
     strategy:
       matrix:
-        os: [self-hosted, macos-latest]
+        os: [self-hosted]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v2
